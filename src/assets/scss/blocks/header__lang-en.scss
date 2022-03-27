@@ -1,0 +1,13 @@
+//main: ../style.less
+
+.header__lang-en {
+  display: flex;
+}
+
+.translate {
+   padding-left: 10px;
+   font-size: 1.1rem;
+   border: 0;
+   background: transparent;
+   color: $white;
+}

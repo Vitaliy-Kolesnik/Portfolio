@@ -1,0 +1,39 @@
+.page {
+   //чтобы форму сделать по центру
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh;
+   justify-content: center;
+   overflow: hidden;
+
+   @include breakpoint($tablet-bp) {
+      //делаем маску, чтобы затемнить основную страницу
+      .show-sidebar{
+         position: relative;
+      }
+   }
+}
+.page__title{
+   margin-bottom: 3rem;
+   font-size: 2.1rem;
+   color: $white;
+
+   &--center{
+      text-align: center;
+   }
+}
+//клас для того чтобы закрывать sidebar при клике на маску
+.page__mask{
+   @include breakpoint($tablet-bp) {
+   display: block;
+   width: 100%;
+   height: 100%;
+
+   background-color: rgba($black, .9);
+
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 10;
+   }
+}

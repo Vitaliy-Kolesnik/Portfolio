@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+    
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Portfolio | Works</title>
+  </head>
+  <body>
+    <div class="page" id="page">
+      <header class="header">
+   <div class="header__left">
+      <nav class="nav">
+         <ul class="nav__list">
+            <li class="nav__item">
+               <a class="nav__link lang" href="index.html" key="home">Home</a>
+            </li>
+
+            <li class="nav__item">
+               <a class="nav__link has--subnav lang" href="#" key="services">Services</a>
+
+               <ul class="subnav">
+                  <li class="nav__item">
+                     <a class="subnav__link lang"  href="#" key="website">Create WebSite</a>
+                  </li>
+                  <li>
+                     <a class="subnav__link lang" href="#" key="marketing">Internet Marketing</a>
+                  </li>
+                  <li class="nav__item">
+                     <a class="subnav__link lang" href="#" key="promotion">Video promotion</a>
+                  </li>
+               </ul>
+            </li>
+
+            <li class="nav__item">
+               <a class="nav__link lang" href="text.html" key="aboutme">About ME</a>
+            </li>
+            <li class="nav__item">
+               <a class="nav__link lang" href="portfolio.html" key="myportfolio">My Portfolio</a>
+            </li>
+         </ul>
+      </nav>
+
+      <button class="burger" type="button" id="sidebarToggle">
+         <span key="opennav">open nav</span>
+      </button>
+   </div>
+   <div class="header__right">
+
+      <nav class="nav">
+         <div class="header__lang-en">
+            <button class="translate" id="en">EN</button>
+            <button class="translate" id="ua">UA</button>
+         </div>
+         <ul class="nav__list">
+            <li class="nav__item">
+               <a class="nav__link lang" href="profile.html" key="profile">Profile</a>
+            </li>
+
+         </ul>
+
+      </nav>
+
+      <form class="search" action="search.html" method="get">
+         <input class="search__input lang" type="text" key="search" placeholder="Search for Site">
+      </form>
+   </div>
+
+
+
+</header>
+ <aside class="sidebar" id="sidebar">
+   <div class="sidebar__header">
+      <img src="assets/images/sidebar-header.jpg" alt="">
+   </div>
+   <div class="sidebar__content">
+      <div class="profile">
+            <img class="profile__avatar" src="assets/images/12.png" alt="">
+            <div class="profile__header">
+               <div class="profile__name lang" key="name">Kolesnik Vitaliy</div>
+               <div class="profile__prof lang" key="prof">Junior Frontend Developer</div>
+            </div>
+
+
+            <ul class="social">
+            <li class="social__item">
+               <a class="social__link" href="https://www.linkedin.com/in/vitaliy-kolesnik-82625220b/" target="_blank">
+                  <img src="assets/images/linkedin.png" alt="">
+               </a>
+            </li>
+            <li class="social__item">
+               <a class="social__link" href="https://github.com/Vitaliy-Kolesnik" target="_blank">
+                  <img src="assets/images/git.png" alt="">
+               </a>
+            </li>
+            <li class="social__item">
+               <a class="social__link" href="https://t.me/Kolesnik_Vitaliy" target="_blank">
+                  <img src="assets/images/telegram.png" alt="">
+               </a>
+            </li>
+            <li class="social__item">
+               <a class="social__link" href="https://www.facebook.com/vitaliy.kolesnik.1" target="_blank">
+                  <img src="assets/images/facebook.png" alt="">
+               </a>
+            </li>
+            </ul><!--/social-->
+            <div class="profile__text lang" key="hi">
+            <p>
+              Hi! My name is Vitaliy and I am open to new opportunities.I want to find an interesting projects. I have been working with Front End for a year now, constantly improving my skills gained at Infopulse University. It feels like I am ready for new challenges.I have experience working as part of a team and individually.I like to spend my free time on fishing, I am interested in active types of recreation.I will be glad to new cooperation!
+            </p>
+            </div><!--/profile__text-->
+      </div><!--/profile-->
+         <nav class="nav nav--mobile">
+               <ul class="nav__list">
+               <li class="nav__item">
+                  <a class="nav__link lang" href="index.html" key="home">Home</a>
+               </li>
+
+               <li class="nav__item">
+                  <a class="nav__link has--subnav lang" href="#" key="services">Service</a>
+
+                  <ul class="subnav">
+                     <li class="nav__item">
+                        <a class="subnav__link lang" href="#" key="website">Create WebSite</a>
+                     </li>
+                     <li>
+                        <a class="subnav__link lang" href="#" key="marketing">Internet Marketing</a>
+                     </li>
+                     <li class="nav__item">
+                        <a class="subnav__link lang" href="#" key="promotion">Video Promotion</a>
+                     </li>
+                  </ul>
+               </li>
+
+               <li class="nav__item">
+                  <a class="nav__link lang" href="text.html" key="aboutme">About me</a>
+               </li>
+               <li class="nav__item">
+                  <a class="nav__link lang" href="portfolio.html" key="myportfolio">My Portfolio</a>
+               </li>
+               <li class="nav__item">
+                  <a class="nav__link lang" href="profile.html" key="profile">Profile</a>
+               </li>
+               <li class="nav__item">
+                  <a class="nav__link lang" href="#" key="logout">Log Out</a>
+               </li>
+            </ul>
+         </nav>
+   </div><!--/sidebar__content-->
+   <div class="sidebar__footer">
+      <a class="btn btn--red lang"  href="works.html" key="projects">My Projects</a>
+      <button class="btn btn--blue lang" type="button" data-modal="contact-modal" key="hire">Hire me</button>
+   </div>
+</aside>
+
+      <main class="main">
+        <div class="container">
+<h3 class="page__title">My pojects</h3>
+
+<article class="work">
+   <div class="work__preview">
+      <picture>
+         <source srcset="http://placehold.it/575x200" media="(max-width: 575px)">
+         <img src="assets/images/works/work-1.jpg" alt="">
+      </picture>
+   </div>
+
+   <div class="work__content">
+      <h2 class="work__title">
+         <a href="#" target="_blank">google.com</a>
+      </h2>
+      <div class="work__description">
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima soluta ratione quasi veritatis quibusdam necessitatibus libero, incidunt nam eum sit deserunt sapiente corporis eligendi reprehenderit eveniet magnam magni, alias non!</p>
+      </div>
+   <ul class="tags">
+      <li class="tags__item">Diesign</li>
+      <li class="tags__item">Create Site</li>
+      <li class="tags__item">SMM</li>
+   </ul>
+   <div class="work__footer">
+   <a class="btn btn--blue btn--rounded btn--sm"
+   href="#" target="_blank">Go Site</a>
+   </div>
+   </div>
+</article>
+
+<article class="work">
+   <div class="work__preview">
+      <picture>
+         <source srcset="http://placehold.it/575x200" media="(max-width: 575px)">
+         <img src="assets/images/works/work-2.jpg" alt="">
+      </picture>
+   </div>
+
+   <div class="work__content">
+      <h2 class="work__title">
+         <a href="#" target="_blank">google.com</a>
+      </h2>
+      <div class="work__description">
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima soluta ratione quasi </p>
+      </div>
+   <ul class="tags">
+      <li class="tags__item">Diesign</li>
+      <li class="tags__item">Create Site</li>
+      <li class="tags__item">SMM</li>
+      <li class="tags__item">SMM</li>
+      <li class="tags__item">SMM</li>
+   </ul>
+   <div class="work__footer">
+   <a class="btn btn--blue btn--rounded btn--sm"
+   href="#" target="_blank">Go Site</a>
+   </div>
+   </div>
+</article>
+</div>
+      </main>
+    </div>
+    <!-- <div class="modal" id="story-modal">
+   <div class="modal__content modal__content--story">
+      <section class="gallery">
+       <h2 class="title">Gallery</h2>
+
+   </div>
+</div> --> <div class="modal" id="contact-modal">
+  <div class="modal__content dal-content--contact"> <!-- container -->
+
+<form class="form__mail" action="mail.php" method="post">
+
+         <input type="text" name="name"  placeholder="Your name" required>
+         <input type="email" name="mail"   placeholder="Your Email" required>
+         <input type="text" name="number"  placeholder="Phone number" required>
+         <textarea  name="message" rows="4" placeholder="How can I help You?"></textarea>
+         <button class="btn btn--blue btn--rounded btn--sm" type="submit">Send</button>
+      </form>
+
+
+
+
+      <!-- <form class="form__mail" onsubmit="sendEmail(); reset();return false; ">
+         <h3>GET IN TOUCH</h3>
+         <input type="text" id="name"  placeholder="Your name" required>
+         <input type="email" id="email"  placeholder="Your Email" required>
+         <input type="text" id="phone"  placeholder="Phone number" required>
+         <textarea  id="message" rows="4" placeholder="How can I help You?"></textarea>
+         <button class="btn btn--blue btn--rounded btn--sm" type="submit">Send</button>
+      </form> -->
+
+
+
+
+
+   </div><!-- container -->
+</div>
+
+
+
+<!-- <form class="form" id="form" name="form">
+
+         <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+         </button>
+
+         <div class="form__group  form__group--md">
+            <input class="form__control" name="name" type="text" placeholder="Your name" required>
+            <span class="form__line"></span>
+         </div>
+         <div class="form__group  form__group--md">
+            <input class="form__control phone" name="phone" type="text" placeholder="Your phone" required>
+            <span class="form__line"></span>
+         </div>
+
+         <div class="form__group  form__group--md">
+            <input class="form__control" name="email" type="email" placeholder="Your e-mail" required>
+            <span class="form__line"></span>
+         </div>
+
+         <div class="form__group  form__group--md">
+            <textarea class="form__control form__control--textarea" name="text" placeholder="text message"></textarea>
+            <span class="form__line"></span>
+         </div>
+
+         <div class="form__footer">
+            <div class="form__group  form__group--md">
+               <button class="btn btn--blue btn--rounded btn--sm" type="submit">Send</button>
+            </div>
+         </div>
+      </form> --> <div class="modal">
+   <div class="modal-content">
+         <button class="modal__close" type="button">
+             <img src="assets/images/close.svg" alt="close">
+         </button>
+         <ul class="social">
+            <li class="social__item">
+               <a class="social__link" href="#">
+                  <img src="assets/images/share/linkedin.png">
+               </a>
+            </li>
+            <li class="social__item">
+               <a class="social__link" href="#">
+                  <img src="assets/images/share/git.png">
+               </a>
+            </li>
+            <li class="social__item">
+               <a class="social__link" href="#">
+                  <img src="assets/images/share/telegram.png">
+               </a>
+            </li>
+            <li class="social__item">
+               <a class="social__link" href="#" target="_blank">
+                  <img src="assets/images/share/facebook.svg">
+               </a>
+            </li>
+         </ul>
+      </form>
+
+   </div><!--/modal-content-->
+</div><!--/modal-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/lightbox-plus-jquery.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script>
+      // https://smtpjs.com/
+      function sendEmail() {
+        Email.send({
+        //   SecureTokin: "e1463485-f01e-4f23-a71b-b1f31e560a7f",
+          Host: "mail.welcome-on.co.ua",
+          Username: "vitaliy.kolesnik@welcome-on.co.ua",
+          Password: "Ukraine",
+          To: "Vitaliym58@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Contact fron Enquery",
+          Body:
+            "Name:" +
+            document.getElementById("name").value +
+            "<br> Email: " +
+            document.getElementById("email").value +
+            "<br> Phone: " +
+            document.getElementById("phone").value +
+            "<br> message: " +
+            document.getElementById("message").value,
+        }).then((message) => alert("Message Sent Succesfully"));
+
+      } -->
+    </script>
+  </body>
+</html>

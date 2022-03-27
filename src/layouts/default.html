@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{> head }}
+  </head>
+  <body>
+    <div class="page" id="page">
+      {{> header }} {{> sidebar }}
+
+      <main class="main">
+        <div class="container">{{> body }}</div>
+      </main>
+    </div>
+    {{> story-modal }} {{> contact-modal }} {{> share-modal }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/lightbox-plus-jquery.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- <script>
+      // https://smtpjs.com/
+      function sendEmail() {
+        Email.send({
+        //   SecureTokin: "e1463485-f01e-4f23-a71b-b1f31e560a7f",
+          Host: "mail.welcome-on.co.ua",
+          Username: "vitaliy.kolesnik@welcome-on.co.ua",
+          Password: "Ukraine",
+          To: "Vitaliym58@gmail.com",
+          From: document.getElementById("email").value,
+          Subject: "New Contact fron Enquery",
+          Body:
+            "Name:" +
+            document.getElementById("name").value +
+            "<br> Email: " +
+            document.getElementById("email").value +
+            "<br> Phone: " +
+            document.getElementById("phone").value +
+            "<br> message: " +
+            document.getElementById("message").value,
+        }).then((message) => alert("Message Sent Succesfully"));
+
+      } -->
+    </script>
+  </body>
+</html>
